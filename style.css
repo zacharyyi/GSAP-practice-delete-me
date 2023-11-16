@@ -1,9 +1,12 @@
+@import "https://unpkg.com/open-props";
+@import url('bevellier.css');
+
 body,html {
     overflow-x:hidden;
 }
 body {
     margin:0;
-    font-family: serif;
+    font-family: 'Bevellier', sans-serif;;
     color:#FFF;
 }
 section {
@@ -13,17 +16,19 @@ section {
 	height: 100vh;
 }
 .panel-1 {
-  background:#423E3B;  
+  background: var(--gradient-3);
 }
 .panel-2 {
-  background:#88498F;
+  background: var(--gradient-22);
 }
 
 .panel-3 {
-  background: red;
+  background: var(--gradient-18);
 }
 
 
 h1 {
     font-size:4rem;
 }
+
+font-family: 'Bevellier', sans-serif;

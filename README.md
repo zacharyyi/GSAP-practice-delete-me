@@ -7,3 +7,5 @@ Practice for gsap
 **Citations 
 
 *GSAP Stroll Trigger Pen
+*Fontshare 
+*Open Props 
